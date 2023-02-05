@@ -1,0 +1,98 @@
+.home-header {
+    background: linear-gradient(100deg,#141415,#0f0f0f);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container {
+    background:#EEE9DA
+}
+.header-btn:hover {
+    border-color: rgb(25, 25, 25);
+}
+
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 34px;
+    margin-left: 30px;
+    color: rgb(248, 246, 246);
+}
+
+.home-main {
+    margin: auto;
+    margin-top: -70px;
+    width: 100vw;
+    height: 100vh;    
+    background: url('../../utils/images/yoga1.jpg') ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 1600px;
+    padding:auto;
+}
+
+.description {
+    font-size: 50px;
+    color: rgb(254, 231, 231);
+    text-align:center;
+    margin: 0px;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5px;
+    height: auto;
+}
+
+#about-desc{
+    height: auto;
+    position: absolute;
+    left: 3vw;
+    top: 40vh;
+    font-size:larger;
+    border-color: #151616;
+    border-radius: 8px;
+    border-width: 4px;
+    cursor: pointer;
+    color: rgb(13, 13, 13);
+}
+
+.btn-section {
+    height: auto;
+    position: absolute;
+    left: 3vw;
+    color:black;
+    top: 60vh;
+}
+
+.btn{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 30px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: rgba(241, 237, 234, 0.2);
+    color: rgb(14, 14, 14);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+#about-btn {
+    padding: 5px 10px;
+}
+#about-btn:hover {
+    border-color: white;
+    background-color: white;
+    color: rgb(13, 13, 13);
+}
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: rgb(15, 15, 15);
+}
